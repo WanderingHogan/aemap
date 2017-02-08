@@ -1,0 +1,182 @@
+
+@import url(../vendor/Cesium-1.29/Build/Cesium/Widgets/widgets.css);
+html, body{
+    width: 100%; height: 100%; margin: 0; padding: 0; overflow: hidden;
+}
+
+#cesiumContainer{
+    width: 100%;
+    /*height:100%;*/
+    min-width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+HTML  CSS   Result
+Edit on 
+/**************************
+  DEFAULT BOOTSTRAP STYLES
+**************************/
+
+.btn {
+  display: inline-block;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  background-image: none;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  padding: 10px 16px;
+}
+  
+.btn-lg {
+  font-size: 18px;
+  line-height: 1.33;
+  border-radius: 6px;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #303336;
+  border-color: #357ebd;
+}
+
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.active,
+.open .dropdown-toggle.btn-primary {
+  color: #fff;
+  background-color: #303336;
+  border-color: #285e8e;
+}
+
+/***********************
+  SHARP BUTTONS
+************************/
+.sharp {
+  border-radius:0;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    padding: 5px 5px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 32px;
+    height: 32px;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-primary {
+    background: #303336;
+    color: #ffffff;
+}
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+#mapNavButtons {
+    z-index: 1000;
+    position: fixed;
+    padding-left: 25px;
+    padding-top: 10px;
+    right: 25px;
+}
+
+
+/* TREE VIEW */
+#dataLayerExplorer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    bottom: 100px;
+    z-index: 1000;
+}
+
+/* Hazır */
+
+.fordtreeview ul{
+    z-index: 1000;
+  display:none;
+  margin: 15px -16px;
+  list-style:none;
+}
+
+.fordtreeview ul.expanded{
+  display:block;
+}
+
+.fordtreeview ul li{
+  left:5px;
+  margin-right:10px; 
+  color: #333;
+}
+
+.fordtreeview > li:first-child{
+  display:block !important;
+}
+
+.fordtreeview li,
+.fordtreeview a{
+  color: #333; 
+  text-decoration:none; 
+  cursor:pointer;
+}
+
+.fordtreeview i.glyphicon{
+  margin-right:5px;
+}
+
+.subactivated,
+.fordtreeview > li:not(:first-child):hover{
+  background-color: #f5f5f5;
+}
+
+.list-group-item{
+    padding-left: 15px;
+    margin-left: 10px;
+}
+
+
+/* BASEMAP PICKER MENU */
+
+#basemapPickerMenu {
+    width: 406.6px;
+    height: 500px;
+    background-color: #0099cc;
+    position: fixed;
+    z-index: 1000;
+    right: 25px;
+    top: 80px;
+    display: none;
+    padding:5px;
+    overflow-y: scroll;
+}
