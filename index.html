@@ -25,17 +25,33 @@
                     <span class="hasSub"><i class="fa fa-plus-square-o"></i> Real Time</span>
                     <ul class="list-group expanded">
                         <li class="list-group-item">
-                            <span class="hasSub"><i class="fa fa-plus-square-o"></i> COMINT (2)</span>
+                            <span class="hasSub"><i class="fa fa-plus-square-o"></i> COMINT (3)</span>
                             <ul class="list-group">
-                                <li class="list-group-item"><i class="glyphicon glyphicon-file"></i> IDNO 123</li>
-                                <li class="list-group-item"><i class="glyphicon glyphicon-file"></i> IDNO 456</li>
-                                <!--<li class="list-group-item">
-                                    <span class="hasSub"><i class="glyphicon glyphicon-folder-close"></i> Menü Öğesi 1.1.3</span>
-                                    <ul class="list-group">
-                                        <li class="list-group-item"><i class="glyphicon glyphicon-file"></i> Menü Öğesi 1.1.3.1</li>
-                                        <li class="list-group-item"><i class="glyphicon glyphicon-file"></i> Menü Öğesi 1.1.3.2</li>
-                                    </ul>
-                                </li>-->
+                                <li class="list-group-item">
+                                    <span>
+                                        <i class="glyphicon glyphicon-file pull-left icon-menuitem-padding-fix"></i>IDNO 123
+                                        <span class="fa-stack icon-menuitem-padding-fix pull-right" id="idno123Togglebutton">
+                                            <i class="fa fa-toggle-off fa-stack-1x icon-a" style="color:red"></i>
+                                            <i class="fa fa-toggle-on fa-stack-1x icon-b" style="color:white"></i>
+                                        </span>
+                                        <!--<i class="glyphicon fa fa-toggle-off pull-right icon-menuitem-padding-fix" id="idno123Togglebutton" aria-hidden="true"></i>-->
+                                        <i class="glyphicon fa fa-dot-circle-o pull-right icon-menuitem-padding-fix" aria-hidden="true"></i>
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span>
+                                        <i class="glyphicon glyphicon-file pull-left icon-menuitem-padding-fix"></i>IDNO 567
+                                        <i class="glyphicon fa fa-toggle-off pull-right icon-menuitem-padding-fix" aria-hidden="true"></i>
+                                        <i class="glyphicon fa fa-dot-circle-o pull-right icon-menuitem-padding-fix" aria-hidden="true"></i>
+                                    </span>
+                                </li>
+                                <li class="list-group-item">
+                                    <span>
+                                        <i class="glyphicon glyphicon-file pull-left icon-menuitem-padding-fix"></i>IDNO 789
+                                        <i class="glyphicon fa fa-toggle-off pull-right icon-menuitem-padding-fix" aria-hidden="true"></i>
+                                        <i class="glyphicon fa fa-dot-circle-o pull-right icon-menuitem-padding-fix" aria-hidden="true"></i>
+                                    </span>
+                                </li>
                             </ul>
                         </li>
                         <li class="list-group-item">
@@ -223,5 +239,6 @@
     <script src="vendor/Cesium-1.29/Build/Cesium/Cesium.js"></script>
     <script src="js/map.js"></script>
     <script src="js/components/flyToHome.js"></script>
+    <script src="js/components/idnoToggleButton.js"></script>
 
 </html>
